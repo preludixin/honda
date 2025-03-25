@@ -7,7 +7,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 200px;
+    height: 150px;
     background-color: rgb(40, 40, 40);
 }
 
@@ -15,5 +15,82 @@ header {
     font-size: 500%;
     font-weight: 500;
     color: white;
+}
 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    gap: 250px;
+    background-color: rgb(40, 40, 40);
+}
+
+.nav-item {
+    font-size: 200%;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: white;
+    color: rgb(40, 40, 40);
+    text-decoration: underline;
+    border-radius: 30px;
+}
+
+main {
+    width: 100%;
+    height: 700px;
+    background-image: url(./files/media/main-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.image-text {
+    font-size: 300%;
+    font-style: italic;
+    color: white;
+    text-transform: uppercase;
+}
+
+footer {
+    width: 100%;
+    height: 270px;
+    background-color: rgb(40, 40, 40);
+}
+
+ol {
+    font-size: 150%;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+} 
+
+.contact {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    padding-top: 30px;
+}
+
+.icon {
+   width: 25px;
+   height: 25px;
+   color: white; 
+}
+
+.footer-position {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
